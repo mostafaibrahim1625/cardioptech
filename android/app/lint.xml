@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Suppress warnings from health plugin -->
+    <issue id="ConstantConditionIf" severity="ignore" />
+    <issue id="RedundantNullCheck" severity="ignore" />
+    <issue id="UnusedImport" severity="ignore" />
+    <issue id="UnusedVariable" severity="ignore" />
+    <issue id="UnusedParameter" severity="ignore" />
+    <issue id="UnusedPrivateMember" severity="ignore" />
+    
+    <!-- Suppress other common warnings that don't affect functionality -->
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="ExtraTranslation" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="IconDensities" severity="ignore" />
+    <issue id="IconDuplicates" severity="ignore" />
+    
+    <!-- Suppress Kotlin-specific warnings -->
+    <issue id="KotlinConstantConditionIf" severity="ignore" />
+    <issue id="KotlinRedundantNullCheck" severity="ignore" />
+</lint>

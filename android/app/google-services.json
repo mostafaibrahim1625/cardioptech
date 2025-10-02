@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "663039472499",
+    "project_id": "cardio-tech",
+    "storage_bucket": "cardio-tech.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663039472499:android:9536d477636f23578c8b06",
+        "android_client_info": {
+          "package_name": "com.eui.heart_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663039472499-vq9o4gkinfpv1cqfctf49u8krpqj51v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eui.heart_ai",
+            "certificate_hash": "df506f25454e8cf20f767c26cf53f7f80148c5b4"
+          }
+        },
+        {
+          "client_id": "663039472499-8igc40tvhqvl866nj1hnbfsod1ng23th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT9-fFLxflztwoXJBFRCm5oipVVhBWz-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663039472499-8igc40tvhqvl866nj1hnbfsod1ng23th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
