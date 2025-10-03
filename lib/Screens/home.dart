@@ -739,8 +739,6 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                 // Heart Beats Card (Full Width)
                 _buildHeartBeatsCard(),
                 // Show Health Connect setup box when there's no data and there's an error, or when loading
-                // COMMENTED OUT: Retry white box - keeping for future use but hidden for now
-                /*
                 if (!_healthDataAvailable &&
                     (_healthDataError.isNotEmpty || _isLoadingHealthData))
                   Padding(
@@ -939,7 +937,6 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                       ),
                     ),
                   ),
-                */
 
                 const SizedBox(height: 20),
 
@@ -1088,7 +1085,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                             ? '...'
                             : (_heartRate != null
                                   ? _heartRate.toString()
-                                  : _getRandomHeartRate().toString()),
+                                  : '--'),
                       ),
                     ),
                     Text(
@@ -1234,7 +1231,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         ? '...'
                         : (_oxygenSaturation != null
                               ? '${_oxygenSaturation}%'
-                              : '${_getRandomOxygenSaturation()}%'),
+                              : '--'),
                     style: GoogleFonts.montserrat(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
@@ -1317,7 +1314,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         ? '...'
                         : (_calories != null
                               ? _calories.toString()
-                              : _getRandomCalories().toString()),
+                              : '--'),
                     style: GoogleFonts.montserrat(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
@@ -1400,7 +1397,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                         ? '...'
                         : (_sleepHours != null
                               ? _sleepHours.toString()
-                              : _getRandomSleepHours().toString()),
+                              : '--'),
                     style: GoogleFonts.montserrat(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,

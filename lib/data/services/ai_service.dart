@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class AIService {
-  static const String _apiKey = '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';
+  static const String _apiKey = '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';
   static const String _baseUrl = 'https://openrouter.ai/api/v1';
   static const String _model = 'deepseek/deepseek-r1';
 
